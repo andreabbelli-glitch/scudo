@@ -38,7 +38,7 @@ App Scudo ───────────────────▶ filters.a
 - **Apple Developer Program a pagamento**: AltStore PAL accetta solo app
   notarizzate da Apple tramite App Store Connect (l'account gratuito non basta).
 - **AltStore PAL** sull'iPhone (UE).
-- Un **hosting HTTPS statico** per la source: GitHub Pages va benissimo.
+- Un **hosting HTTPS statico** per la source: GitHub Pages, già configurato (vedi 3.1).
 
 ## 1. Prima configurazione
 
@@ -68,14 +68,16 @@ aggiornabile senza Mac.
 
 ### 3.1 Sito della source (GitHub Pages)
 
-1. Crea un repository GitHub e fai push di questo progetto.
-2. *Settings › Pages*: pubblica dal branch `main`, cartella `/docs`.
-3. In `docs/source.json` sostituisci `https://TUO-UTENTE.github.io/TUO-REPO/`
-   (in `website` e nei due `iconURL`) con il tuo indirizzo, e `IL TUO NOME`
-   in `developerName`.
-4. Avrai così gli URL richiesti da Apple:
-   - supporto: `https://<utente>.github.io/<repo>/`
-   - privacy: `https://<utente>.github.io/<repo>/privacy.html`
+Già pronto: il repository è [andreabbelli-glitch/scudo](https://github.com/andreabbelli-glitch/scudo)
+e GitHub Pages pubblica la cartella `docs/` del branch `main` (ogni push
+aggiorna il sito in un paio di minuti). Gli indirizzi:
+
+- source per AltStore PAL: `https://andreabbelli-glitch.github.io/scudo/source.json`
+- supporto (per App Store Connect): `https://andreabbelli-glitch.github.io/scudo/`
+- privacy (per App Store Connect): `https://andreabbelli-glitch.github.io/scudo/privacy.html`
+
+In `docs/source.json` resta da sostituire `IL TUO NOME` in `developerName` con
+il nome da mostrare in AltStore (`marketplaceID` si compila al punto 3.2).
 
 ### 3.2 App Store Connect
 
@@ -123,7 +125,7 @@ aggiornabile senza Mac.
 
 ### 3.6 Installa
 
-AltStore PAL › *Sorgenti* › + › `https://<utente>.github.io/<repo>/source.json`,
+AltStore PAL › *Sorgenti* › + › `https://andreabbelli-glitch.github.io/scudo/source.json`,
 installa Scudo, aprilo una volta e attiva le estensioni in Safari.
 
 ## 4. Aggiornamenti
