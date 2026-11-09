@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10FA0E9A2784F3A0B63998FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC09BD2045721973F58FC1F8 /* HomeView.swift */; };
+		15FB1756A32842A53566BFFA /* ScudoKit in Frameworks */ = {isa = PBXBuildFile; productRef = C24951A3AACC4E984A5474D5 /* ScudoKit */; };
+		1E8D228331F1024748960551 /* ScudoShared in Frameworks */ = {isa = PBXBuildFile; productRef = B6EAE143575BF0BD976E0121 /* ScudoShared */; };
+		24D68CAC90E1A046CC8F829B /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */; };
+		26098DD46BF7FFCEFF609174 /* SafariBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B78FFF657ADA715A1AE8A89 /* SafariBridge.swift */; };
+		26CAA8B4E28539AE12248F71 /* CustomRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E63971BE40A87D880B212A8 /* CustomRulesView.swift */; };
+		2B35EDEE63130EA146C913BA /* ScudoShared in Frameworks */ = {isa = PBXBuildFile; productRef = D1DD69E9ECDC86CE00967F79 /* ScudoShared */; };
+		2E0A65831302A12A54F1E127 /* ScudoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21976BDDF9F4E4C610CAB952 /* ScudoApp.swift */; };
+		31352FB758261188E7E45242 /* FilterListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEE40D4CAB5393584AEE7FD /* FilterListsView.swift */; };
+		35F40DF9BCEF942329C72B7B /* BlockerSecurity.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C83E2DD9C22C26E2268E37C /* BlockerSecurity.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A4E03AFCE72C39A2A519AB9 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D16B348AB1AAC4E8EF967 /* AppModel.swift */; };
+		3D4ACE2D1ACE2DE66E1FC2A0 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */; };
+		3F5B7F7744BD69A64A054B99 /* BlockerAnnoyances.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 70C3B15402007D44844EB23F /* BlockerAnnoyances.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		43A53F98EE39947E3EE51D7E /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 33CFE9F32A485915C7EB9232 /* blockerList.json */; };
+		45CED534AABD93A6D1F67BF0 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */; };
+		4E9552854D1FB246F15243FA /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 33CFE9F32A485915C7EB9232 /* blockerList.json */; };
+		5EB4868EF7F80A1D915F9AAC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FDC584F709CA979D97BF6A91 /* PrivacyInfo.xcprivacy */; };
+		6872B448B38AE042CD967835 /* ScudoShared in Frameworks */ = {isa = PBXBuildFile; productRef = 8622DC8B71969A5A7512A515 /* ScudoShared */; };
+		772F6A46C5A868F6224B26F6 /* BackgroundRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4734DA3EC70AFAA5D954A2 /* BackgroundRefresh.swift */; };
+		ACF4683C905F469C838EAFAB /* ScudoShared in Frameworks */ = {isa = PBXBuildFile; productRef = E4D65252915346F19948CF5E /* ScudoShared */; };
+		B911CF8173351A4A18994452 /* BlockerAds.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AC8052EBEBB2E4F5F99180C1 /* BlockerAds.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B9B994785F03FBEAC666756E /* BlockerPrivacy.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6529A11E57F4BC8419478874 /* BlockerPrivacy.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BB78D7793B945468BCA0CD71 /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */; };
+		BC16E77562D0E764D092516F /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F94B41375716A319C49BB83 /* Platform.swift */; };
+		C0FB80D621D8DDEE674C5F6B /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D74B737CB05AA8CFB2BE27 /* GuideView.swift */; };
+		C5B6E39A5A54B03AE0B4237C /* AllowlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1692C43AF43A0CC93934EF7D /* AllowlistView.swift */; };
+		CB848841B99B17A758B23320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316DCB3EA4E7B2EDAE768DBF /* Assets.xcassets */; };
+		DFF41290DB5DCE82E27E3886 /* ScudoShared in Frameworks */ = {isa = PBXBuildFile; productRef = D7226CDB7F2044B0F6F00C82 /* ScudoShared */; };
+		F3C293DAB9F9C2915A05EB7B /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 33CFE9F32A485915C7EB9232 /* blockerList.json */; };
+		F7BD5D252A68BFE16099E6C0 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = 33CFE9F32A485915C7EB9232 /* blockerList.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E6DB2229288176AF73AF674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF3C3683A336D49475A3C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F69FD44C1ACE1044E35FDD3;
+			remoteInfo = BlockerAds;
+		};
+		36F22B01E652A21C3064C508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF3C3683A336D49475A3C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0B9B3CA1C99D9E3DEF72A5;
+			remoteInfo = BlockerSecurity;
+		};
+		42ABB8ED1881CC87D9CE340D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF3C3683A336D49475A3C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F20CE8624769719E22EDA2CD;
+			remoteInfo = BlockerAnnoyances;
+		};
+		7E7AC97403C016B53F798662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF3C3683A336D49475A3C3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBE1FDC5A3D2590CEBC96D61;
+			remoteInfo = BlockerPrivacy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F6A6D0A34B50EB10B3A0EDE5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B911CF8173351A4A18994452 /* BlockerAds.appex in Embed Foundation Extensions */,
+				B9B994785F03FBEAC666756E /* BlockerPrivacy.appex in Embed Foundation Extensions */,
+				3F5B7F7744BD69A64A054B99 /* BlockerAnnoyances.appex in Embed Foundation Extensions */,
+				35F40DF9BCEF942329C72B7B /* BlockerSecurity.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0E4734DA3EC70AFAA5D954A2 /* BackgroundRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefresh.swift; sourceTree = "<group>"; };
+		1692C43AF43A0CC93934EF7D /* AllowlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowlistView.swift; sourceTree = "<group>"; };
+		21976BDDF9F4E4C610CAB952 /* ScudoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScudoApp.swift; sourceTree = "<group>"; };
+		22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		316DCB3EA4E7B2EDAE768DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33CFE9F32A485915C7EB9232 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		3B78FFF657ADA715A1AE8A89 /* SafariBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariBridge.swift; sourceTree = "<group>"; };
+		5C83E2DD9C22C26E2268E37C /* BlockerSecurity.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BlockerSecurity.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6529A11E57F4BC8419478874 /* BlockerPrivacy.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BlockerPrivacy.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		70C3B15402007D44844EB23F /* BlockerAnnoyances.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BlockerAnnoyances.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E63971BE40A87D880B212A8 /* CustomRulesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRulesView.swift; sourceTree = "<group>"; };
+		9F94B41375716A319C49BB83 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		A6B12067F68732240B5AF04C /* Scudo.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Scudo.xcconfig; sourceTree = "<group>"; };
+		AC8052EBEBB2E4F5F99180C1 /* BlockerAds.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = BlockerAds.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D74B737CB05AA8CFB2BE27 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		DAEE40D4CAB5393584AEE7FD /* FilterListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterListsView.swift; sourceTree = "<group>"; };
+		DC09BD2045721973F58FC1F8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F24D16B348AB1AAC4E8EF967 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		F4D4344205DF5E9A1ECB0532 /* Scudo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Scudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F760C213A57B8FF608A1D62F /* ScudoKit */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ScudoKit; path = Packages/ScudoKit; sourceTree = SOURCE_ROOT; };
+		FDC584F709CA979D97BF6A91 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E1800969265A719D750AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6872B448B38AE042CD967835 /* ScudoShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B82D59E209642CE41D20B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41290DB5DCE82E27E3886 /* ScudoShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF57A411C716392C58E1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4683C905F469C838EAFAB /* ScudoShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C0541EBC6B91E776E45AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8D228331F1024748960551 /* ScudoShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707836B814CFD97E42A2F084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15FB1756A32842A53566BFFA /* ScudoKit in Frameworks */,
+				2B35EDEE63130EA146C913BA /* ScudoShared in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B6AA235D93DF319EC0248A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8052EBEBB2E4F5F99180C1 /* BlockerAds.appex */,
+				70C3B15402007D44844EB23F /* BlockerAnnoyances.appex */,
+				6529A11E57F4BC8419478874 /* BlockerPrivacy.appex */,
+				5C83E2DD9C22C26E2268E37C /* BlockerSecurity.appex */,
+				F4D4344205DF5E9A1ECB0532 /* Scudo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C4346F80416F3BA22AC300 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1692C43AF43A0CC93934EF7D /* AllowlistView.swift */,
+				9E63971BE40A87D880B212A8 /* CustomRulesView.swift */,
+				DAEE40D4CAB5393584AEE7FD /* FilterListsView.swift */,
+				D4D74B737CB05AA8CFB2BE27 /* GuideView.swift */,
+				DC09BD2045721973F58FC1F8 /* HomeView.swift */,
+				9F94B41375716A319C49BB83 /* Platform.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4ED52341F0CF9CA8C49A2B6E /* ContentBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				33CFE9F32A485915C7EB9232 /* blockerList.json */,
+				22D92F15A2064B795E708169 /* ContentBlockerRequestHandler.swift */,
+			);
+			path = ContentBlocker;
+			sourceTree = "<group>";
+		};
+		69AFE86FF4B53A71C4AAEDAD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C6431BCB3CF19AC7CEECA804 /* Sources */,
+				316DCB3EA4E7B2EDAE768DBF /* Assets.xcassets */,
+				FDC584F709CA979D97BF6A91 /* PrivacyInfo.xcprivacy */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		824539005C2D0B519A451908 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				F760C213A57B8FF608A1D62F /* ScudoKit */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		B393823761B7F49F3A196A75 = {
+			isa = PBXGroup;
+			children = (
+				69AFE86FF4B53A71C4AAEDAD /* App */,
+				B4DE7AD4ABBF7C71C2433D5C /* Config */,
+				FAC62292D86D4C5B873341FD /* Extensions */,
+				824539005C2D0B519A451908 /* Packages */,
+				15B6AA235D93DF319EC0248A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4DE7AD4ABBF7C71C2433D5C /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A6B12067F68732240B5AF04C /* Scudo.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C6431BCB3CF19AC7CEECA804 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				19C4346F80416F3BA22AC300 /* Views */,
+				F24D16B348AB1AAC4E8EF967 /* AppModel.swift */,
+				0E4734DA3EC70AFAA5D954A2 /* BackgroundRefresh.swift */,
+				3B78FFF657ADA715A1AE8A89 /* SafariBridge.swift */,
+				21976BDDF9F4E4C610CAB952 /* ScudoApp.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAC62292D86D4C5B873341FD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ED52341F0CF9CA8C49A2B6E /* ContentBlocker */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0B9B3CA1C99D9E3DEF72A5 /* BlockerSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9283A9D8201C6D77AF1DDD45 /* Build configuration list for PBXNativeTarget "BlockerSecurity" */;
+			buildPhases = (
+				3BA68992FB33A46F45651B06 /* Sources */,
+				E2EE834F0E286D089DDC5BB5 /* Resources */,
+				20E1800969265A719D750AA9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockerSecurity;
+			packageProductDependencies = (
+				8622DC8B71969A5A7512A515 /* ScudoShared */,
+			);
+			productName = BlockerSecurity;
+			productReference = 5C83E2DD9C22C26E2268E37C /* BlockerSecurity.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5F69FD44C1ACE1044E35FDD3 /* BlockerAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E97D6B3155755C13977294 /* Build configuration list for PBXNativeTarget "BlockerAds" */;
+			buildPhases = (
+				CD95A086FAE529C676F111B5 /* Sources */,
+				C55CA7F021BE7939DF7865EC /* Resources */,
+				64C0541EBC6B91E776E45AD8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockerAds;
+			packageProductDependencies = (
+				B6EAE143575BF0BD976E0121 /* ScudoShared */,
+			);
+			productName = BlockerAds;
+			productReference = AC8052EBEBB2E4F5F99180C1 /* BlockerAds.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AA042E5A36C3B65FD4BEB8EE /* Scudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95233DF81FD91F1DA4BE7CAB /* Build configuration list for PBXNativeTarget "Scudo" */;
+			buildPhases = (
+				631DCC6F68543A7A751B1203 /* Sources */,
+				FD3F3F03C864827B94FF0174 /* Resources */,
+				707836B814CFD97E42A2F084 /* Frameworks */,
+				F6A6D0A34B50EB10B3A0EDE5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6463B65299A81021DD5B03F1 /* PBXTargetDependency */,
+				8451EB985283A36AB3DD63F8 /* PBXTargetDependency */,
+				52B1FD305005B8E5806D32F2 /* PBXTargetDependency */,
+				412204EC410AC3A3BC7AD644 /* PBXTargetDependency */,
+			);
+			name = Scudo;
+			packageProductDependencies = (
+				C24951A3AACC4E984A5474D5 /* ScudoKit */,
+				D1DD69E9ECDC86CE00967F79 /* ScudoShared */,
+			);
+			productName = Scudo;
+			productReference = F4D4344205DF5E9A1ECB0532 /* Scudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBE1FDC5A3D2590CEBC96D61 /* BlockerPrivacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7828E7753CCE09E1BF89DDFA /* Build configuration list for PBXNativeTarget "BlockerPrivacy" */;
+			buildPhases = (
+				4C733F80B431DDE337FFF833 /* Sources */,
+				53A3F4D1D7502C0E4EDDFFCF /* Resources */,
+				4FFF57A411C716392C58E1E8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockerPrivacy;
+			packageProductDependencies = (
+				E4D65252915346F19948CF5E /* ScudoShared */,
+			);
+			productName = BlockerPrivacy;
+			productReference = 6529A11E57F4BC8419478874 /* BlockerPrivacy.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F20CE8624769719E22EDA2CD /* BlockerAnnoyances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23E3E42DCCB8274A9179F2A1 /* Build configuration list for PBXNativeTarget "BlockerAnnoyances" */;
+			buildPhases = (
+				4E55DCCF84806759764E24CD /* Sources */,
+				D4FF4749FAB964A7E142C49D /* Resources */,
+				4B82D59E209642CE41D20B8C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockerAnnoyances;
+			packageProductDependencies = (
+				D7226CDB7F2044B0F6F00C82 /* ScudoShared */,
+			);
+			productName = BlockerAnnoyances;
+			productReference = 70C3B15402007D44844EB23F /* BlockerAnnoyances.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF3C3683A336D49475A3C3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5D0B9B3CA1C99D9E3DEF72A5 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					5F69FD44C1ACE1044E35FDD3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					AA042E5A36C3B65FD4BEB8EE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					BBE1FDC5A3D2590CEBC96D61 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F20CE8624769719E22EDA2CD = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60F40DB5C1AB70A2854883B4 /* Build configuration list for PBXProject "Scudo" */;
+			developmentRegion = it;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				it,
+			);
+			mainGroup = B393823761B7F49F3A196A75;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				25DEE6672B9D1B05550C9E14 /* XCLocalSwiftPackageReference "Packages/ScudoKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 15B6AA235D93DF319EC0248A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F69FD44C1ACE1044E35FDD3 /* BlockerAds */,
+				F20CE8624769719E22EDA2CD /* BlockerAnnoyances */,
+				BBE1FDC5A3D2590CEBC96D61 /* BlockerPrivacy */,
+				5D0B9B3CA1C99D9E3DEF72A5 /* BlockerSecurity */,
+				AA042E5A36C3B65FD4BEB8EE /* Scudo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53A3F4D1D7502C0E4EDDFFCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A53F98EE39947E3EE51D7E /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55CA7F021BE7939DF7865EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C293DAB9F9C2915A05EB7B /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4FF4749FAB964A7E142C49D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7BD5D252A68BFE16099E6C0 /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2EE834F0E286D089DDC5BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9552854D1FB246F15243FA /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3F3F03C864827B94FF0174 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB848841B99B17A758B23320 /* Assets.xcassets in Resources */,
+				5EB4868EF7F80A1D915F9AAC /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA68992FB33A46F45651B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4ACE2D1ACE2DE66E1FC2A0 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C733F80B431DDE337FFF833 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB78D7793B945468BCA0CD71 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55DCCF84806759764E24CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CED534AABD93A6D1F67BF0 /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631DCC6F68543A7A751B1203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B6E39A5A54B03AE0B4237C /* AllowlistView.swift in Sources */,
+				3A4E03AFCE72C39A2A519AB9 /* AppModel.swift in Sources */,
+				772F6A46C5A868F6224B26F6 /* BackgroundRefresh.swift in Sources */,
+				26CAA8B4E28539AE12248F71 /* CustomRulesView.swift in Sources */,
+				31352FB758261188E7E45242 /* FilterListsView.swift in Sources */,
+				C0FB80D621D8DDEE674C5F6B /* GuideView.swift in Sources */,
+				10FA0E9A2784F3A0B63998FD /* HomeView.swift in Sources */,
+				BC16E77562D0E764D092516F /* Platform.swift in Sources */,
+				26098DD46BF7FFCEFF609174 /* SafariBridge.swift in Sources */,
+				2E0A65831302A12A54F1E127 /* ScudoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD95A086FAE529C676F111B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D68CAC90E1A046CC8F829B /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412204EC410AC3A3BC7AD644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D0B9B3CA1C99D9E3DEF72A5 /* BlockerSecurity */;
+			targetProxy = 36F22B01E652A21C3064C508 /* PBXContainerItemProxy */;
+		};
+		52B1FD305005B8E5806D32F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F20CE8624769719E22EDA2CD /* BlockerAnnoyances */;
+			targetProxy = 42ABB8ED1881CC87D9CE340D /* PBXContainerItemProxy */;
+		};
+		6463B65299A81021DD5B03F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F69FD44C1ACE1044E35FDD3 /* BlockerAds */;
+			targetProxy = 0E6DB2229288176AF73AF674 /* PBXContainerItemProxy */;
+		};
+		8451EB985283A36AB3DD63F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBE1FDC5A3D2590CEBC96D61 /* BlockerPrivacy */;
+			targetProxy = 7E7AC97403C016B53F798662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043058FB066D16CE46BFD9CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.annoyances";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Fastidi";
+				SCUDO_BLOCKER_KIND = annoyances;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2000B14441E805D4805D84CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.ads";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Pubblicità";
+				SCUDO_BLOCKER_KIND = ads;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		244351EFBD8887BC87DFF6C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.ads";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Pubblicità";
+				SCUDO_BLOCKER_KIND = ads;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45754D599CBD0FB494C5F00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Scudo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		49A6FFB9AEF9FDFA0CAD86B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B12067F68732240B5AF04C /* Scudo.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		62D884D3A15ACFEB442C6323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/Scudo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9FC3417765F57860E5FFA815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.annoyances";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Fastidi";
+				SCUDO_BLOCKER_KIND = annoyances;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2BEE6292ABC78E1A4B9C94A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B12067F68732240B5AF04C /* Scudo.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B388F12CDEB63D59F188FEFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.security";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Sicurezza";
+				SCUDO_BLOCKER_KIND = security;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C106E97A08A8CC24EBCAF1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.privacy";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Privacy";
+				SCUDO_BLOCKER_KIND = privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C1CA22C7B8180F6D140CE31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.privacy";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Privacy";
+				SCUDO_BLOCKER_KIND = privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD72ACFC1A97207F8E5C56FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Extensions/ContentBlocker/ContentBlocker.entitlements;
+				INFOPLIST_FILE = Extensions/ContentBlocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).blocker.security";
+				SCUDO_BLOCKER_DISPLAY_NAME = "Scudo Sicurezza";
+				SCUDO_BLOCKER_KIND = security;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23E3E42DCCB8274A9179F2A1 /* Build configuration list for PBXNativeTarget "BlockerAnnoyances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC3417765F57860E5FFA815 /* Debug */,
+				043058FB066D16CE46BFD9CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60F40DB5C1AB70A2854883B4 /* Build configuration list for PBXProject "Scudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BEE6292ABC78E1A4B9C94A /* Debug */,
+				49A6FFB9AEF9FDFA0CAD86B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7828E7753CCE09E1BF89DDFA /* Build configuration list for PBXNativeTarget "BlockerPrivacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C106E97A08A8CC24EBCAF1DC /* Debug */,
+				C1CA22C7B8180F6D140CE31D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9283A9D8201C6D77AF1DDD45 /* Build configuration list for PBXNativeTarget "BlockerSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B388F12CDEB63D59F188FEFC /* Debug */,
+				CD72ACFC1A97207F8E5C56FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95233DF81FD91F1DA4BE7CAB /* Build configuration list for PBXNativeTarget "Scudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D884D3A15ACFEB442C6323 /* Debug */,
+				45754D599CBD0FB494C5F00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9E97D6B3155755C13977294 /* Build configuration list for PBXNativeTarget "BlockerAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				244351EFBD8887BC87DFF6C8 /* Debug */,
+				2000B14441E805D4805D84CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		25DEE6672B9D1B05550C9E14 /* XCLocalSwiftPackageReference "Packages/ScudoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ScudoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8622DC8B71969A5A7512A515 /* ScudoShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoShared;
+		};
+		B6EAE143575BF0BD976E0121 /* ScudoShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoShared;
+		};
+		C24951A3AACC4E984A5474D5 /* ScudoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoKit;
+		};
+		D1DD69E9ECDC86CE00967F79 /* ScudoShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoShared;
+		};
+		D7226CDB7F2044B0F6F00C82 /* ScudoShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoShared;
+		};
+		E4D65252915346F19948CF5E /* ScudoShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ScudoShared;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8FF3C3683A336D49475A3C3C /* Project object */;
+}

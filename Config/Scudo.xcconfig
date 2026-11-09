@@ -1,0 +1,22 @@
+// Impostazioni del progetto Scudo: modifica solo questo file.
+
+// Il tuo Team ID (10 caratteri) da developer.apple.com › Account › Membership.
+// In alternativa scegli il team in Xcode › target › Signing & Capabilities.
+DEVELOPMENT_TEAM =
+
+// Prefisso degli identificativi: deve essere unico in tutto l'App Store.
+BUNDLE_ID_PREFIX = com.abelli
+
+// Derivati (non serve toccarli).
+APP_BUNDLE_ID = $(BUNDLE_ID_PREFIX).scudo
+APP_GROUP_ID = group.$(APP_BUNDLE_ID)
+
+// Versione mostrata (CFBundleShortVersionString) e numero di build
+// (CFBundleVersion): aumenta la build a ogni caricamento su App Store Connect.
+MARKETING_VERSION = 1.0
+CURRENT_PROJECT_VERSION = 1
+
+CODE_SIGN_STYLE = Automatic
+
+// Sovrascritture locali facoltative (file non versionato).
+#include? "Local.xcconfig"

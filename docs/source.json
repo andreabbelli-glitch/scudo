@@ -1,0 +1,34 @@
+{
+  "name": "Scudo",
+  "subtitle": "Il mio adblocker personale per Safari",
+  "description": "Source personale per installare Scudo con AltStore PAL.",
+  "iconURL": "https://TUO-UTENTE.github.io/TUO-REPO/icon.png",
+  "website": "https://TUO-UTENTE.github.io/TUO-REPO/",
+  "tintColor": "#0E8A6B",
+  "nsfw": false,
+  "featuredApps": [
+    "com.abelli.scudo"
+  ],
+  "apps": [
+    {
+      "name": "Scudo",
+      "bundleIdentifier": "com.abelli.scudo",
+      "marketplaceID": "APPLE-ID-DA-APP-STORE-CONNECT",
+      "developerName": "IL TUO NOME",
+      "subtitle": "Blocca pubblicità, tracker e banner in Safari.",
+      "localizedDescription": "Scudo aggiunge a Safari quattro estensioni di blocco contenuti (pubblicità, privacy, fastidi come i banner dei cookie, sicurezza) basate sulle liste di AdGuard ed EasyList, compresi i filtri italiani. Le liste si aggiornano da sole; puoi scegliere quali usare, consentire singoli siti e scrivere regole personali. Nessun dato raccolto: il blocco avviene dentro Safari.",
+      "iconURL": "https://TUO-UTENTE.github.io/TUO-REPO/icon.png",
+      "tintColor": "#0E8A6B",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": []
+}
